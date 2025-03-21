@@ -1,0 +1,32 @@
+
+.hero {
+    background-image: url('image2.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire section */
+    background-position: center; /* Center the image */
+    color: white; /* Text color to make sure the text is readable over the image */
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding for the height of the hero section */
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #005f8c;
+}
